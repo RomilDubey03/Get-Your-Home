@@ -55,6 +55,7 @@ const listingSchema = new mongoose.Schema(
       enum: ['rent', 'sale'],
       lowercase: true,
       trim: true,
+      index: true
     },
     offer: {
       type: Boolean,
